@@ -20,7 +20,7 @@ Linux虚拟化技术是一块很大的我不太了解的技术。正好通过doc
 有一个好的启示，其实这类问题可以归类，其他相关的问题也可以一起记录一下，同时也可以围绕着学习基础知识。
 
 ### Iptables的使用，防火墙,D/SNAT,NAT
-http://cn.linux.vbird.org/linux_server/0250simple_firewall.php#netfilter
+http://cn.linux.vbird.org/linux\_server/0250simple\_firewall.php#netfilter
 
 ### TCP/IP(http://docs.52im.net/extend/docs/book/tcpip/vol1/1/)
 #### TCP/IP的状态，syn\_sentretransmission, rst等什么时候会出现
@@ -28,12 +28,14 @@ http://cn.linux.vbird.org/linux_server/0250simple_firewall.php#netfilter
 #### TCP/IP滑动窗口，naggle算法
 #### TCP/IP三次四次握手
 #### TCP/IP全连接半连接
+#### conntrack与iptables
 
 ### Docker,k8s,ingress,cstate怎么访问接收外网的访问以及怎么访问外网？docker 网络模式
 
 ### linux对于网络的虚拟化,netnamespace
 
 ### 最近学到的很有用的命令
+https://www.yuque.com/doude/blog/izbp95(网络工具大全)
 ip netns list
 netstat -s
 watch
@@ -41,6 +43,11 @@ lsns
 nsenter
 ss
 tsar
+brctl
+traceroute
+ss/ethtool
+route
+https://cloud.tencent.com/developer/article/1177879
 
 ### 一些和debug相关有用的参数(基本在/proc/sys/net/ipv4)
 `net.ipv4.tcp_tw_recycle`
@@ -58,3 +65,6 @@ https://tech.vijayp.ca/linux-kernel-bug-delivers-corrupt-tcp-ip-data-to-mesos-ku
 https://coolshell.cn/articles/18654.html#comments
 https://blog.box.com/container-networking-mystery-missing-rsts
 https://chennima.github.io/blackout-docker-container-with-iptables
+https://blog.csdn.net/M2l0ZgSsVc7r69eFdTj/article/details/81380446(非常好的一个debug历程，值得学习)
+https://yuerblog.cc/2020/03/06/%E8%AF%9D%E8%AF%B4kubernetes%E7%BD%91%E7%BB%9C%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87/
+https://tencentcloudcontainerteam.github.io/2019/08/12/troubleshooting-with-kubernetes-network/
