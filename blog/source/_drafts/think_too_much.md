@@ -1,10 +1,10 @@
 ---
-title: database
+title: 想太多
 date: 2021-03-20 21:56:00
 categories:
-- 数据库
+- 随笔
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+像运动员一样保持状态，也就是修行。工程的发展有时候是给人启发的，很多系统都想保持好状态，但是很多时候都趋近于模糊，于是选择一些另外的角度去保持一个期望更好的状态。
 
 ## Quick Start
 
