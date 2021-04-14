@@ -1,0 +1,15 @@
+---
+title: predictor
+date: 2021-03-30 15:24:14
+top: false
+cover: false
+toc: true
+mathjax: true
+tags:
+- verilog
+categories:
+- verilog
+---
+
+Tournament
+rst的正负问题，三种方式的优劣。
