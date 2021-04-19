@@ -18,6 +18,7 @@ Low-Cost Branch Folding For Embedded Applications With Small Tight Loops: https:
 good question and good answer:https://stackoverflow.com/questions/29522431/does-a-branch-misprediction-flush-the-entire-pipeline-even-for-very-short-if-st
 eager https://people.cs.clemson.edu/~mark/eager.html
 Power7: https://inst.eecs.berkeley.edu//~cs252/sp17/papers/POWER7-Server-IBM2011.pdf
+Power8: https://www.semanticscholar.org/paper/IBM-POWER8-processor-core-microarchitecture-Sinharoy-Norstrand/a1e4f4ae16c5a18896fe1718acfe56a26aeca620
 BOOMv3: https://people.eecs.berkeley.edu/~krste/papers/SonicBOOM-CARRV2020.pdf
 
 这里面有一半是动态预测，换句话说是依赖于编译器的，但是RISC-V没有以来于编译器。它是通过译码做到的，在译码的时候，通过判断br指令跳转的时候的偏移，如果偏移足够小，
